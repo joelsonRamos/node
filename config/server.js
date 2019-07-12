@@ -15,7 +15,7 @@ app.use(expressValidator());
 consign()
     .include('app/routes')
     .then('config/dbconnection.js')
-    .then('app/models')
+    .then('app/controllers')
     .into(app);
 
 module.exports = app;
