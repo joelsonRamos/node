@@ -1,0 +1,38 @@
+http://177.67.202.209:444/helper/lpr/
+
+baixar o mysql se nao tiver na maquina:
+https://dev.mysql.com/downloads/mysql/
+
+Caminhos para abrir o mysql
+iniciar o mysql 
+no windows + r: digitar services.msc e depois procurar pro Mysqsl e versao e clicar com botao direito do mouse e iniciar o serviço.
+
+1- C:\Program Files\MySQL\MySQL Server 8.0\bin abrir esse caminho no cmd
+
+2-digite no prompt mysql -u root -p
+
+3- depois digite a senha do banco de dados
+
+4- para lista os bancos: show databases;
+
+5- para criar um banco: create database nome_do_banco;
+
+6- para abrir o banco: use nome_do_banco;
+
+7- para criar tabela no banco: create table nome_da_tabela( aqui o conteudo da tabela);
+
+8- para exibir as tabelas craidas: show tables;
+
+9- para selecionar os dados da tabela: select * from nome_da_tabela;
+O * significa todas os dados tabelas
+Mas voce pode selecionar um dado especifica pelo nome dessa tabela.
+
+10- para inserir dados: insert into nome_da_tabela(campos da tabela) values ('valores para inserir na tabela');
+
+11 necessaria fazer uma alteração de de senha no mysql para funcionar a conexao com o node. Redefinir sua senha
+(Substitua your_new_passwordpela senha que você deseja usar)
+
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_new_password';
+mysql> FLUSH PRIVILEGES;
+mysql> quit
+

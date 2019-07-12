@@ -1,0 +1,25 @@
+Configuração do node para uso:
+______________________________________________
+Express:
+npm install express -save
+
+______________________________________________
+EJS:
+npm install ejs --save
+
+______________________________________________
+nodemon:
+npm install -g nodemon
+
+______________________________________________
+mysql
+Instalar o mysql: site. descrição outro bloco de nota
+npm install mysql --save
+
+__________________________________________
+consing:
+npm install consign --save
+
+____________________________________________
+body
+npm install body-parser --save
