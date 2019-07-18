@@ -23,3 +23,16 @@ npm install consign --save
 ____________________________________________
 body
 npm install body-parser --save
+
+____________________________________________
+express-validator
+npm install express-validator --save
+obs: problemas com versao
+npm i --save express-validator@4
+
+_____________________________________________
+mongodb
+npm install --save mongodb
+mensagem: open não é uma função
+obs: problemas com a versao
+npm install --save mongodb@2.2.9
