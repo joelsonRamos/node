@@ -36,3 +36,11 @@ npm install --save mongodb
 mensagem: open não é uma função
 obs: problemas com a versao
 npm install --save mongodb@2.2.9
+
+______________________________________________
+express-session
+npm install express-session --save
+
+_______________________________________________
+crypto
+>npm install crypto --save
